@@ -1,0 +1,3 @@
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Assets\Storage\ProtectedFileController:
+    class: SilverStripe\Assets\Storage\ProtectedFileControllerCustom

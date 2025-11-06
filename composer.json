@@ -1,0 +1,15 @@
+{
+    "name": "undigitalvn/private-secureassets-ss5",
+    "description": "Only logged users can view assets - SS5",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+    "authors": [
+        {
+            "name": "Undigital VN",
+            "email": "support@undigital.com.au"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
