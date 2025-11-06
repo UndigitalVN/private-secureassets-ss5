@@ -55,9 +55,8 @@ class ProtectedFileControllerCustom extends Controller
      */
     public function handleFile(HTTPRequest $request)
     {
-        
         if (!Security::getCurrentUser()) {
-            return Security::PermissionFailure();
+            return $this->httpError(404);
         }
         $filename = $this->parseFilename($request);
 
